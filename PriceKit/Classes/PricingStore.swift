@@ -12,7 +12,7 @@ public class PriceStore {
     // and the values are the region's tier to price lookup table.
     fileprivate lazy var tieredPricesByRegionCode: Dictionary<String, Dictionary<Tier, Price>> = [:]
 
-    convenience init?() {
+    public convenience init?() {
         // Open the default pricing matrix CSV.
         let priceKitBundle = Bundle(identifier: "PriceKit")
         
@@ -27,7 +27,7 @@ public class PriceStore {
         self.init(contentsOfPricingMatrixCsvFile: csvData)
     }
 
-    init?(contentsOfPricingMatrixCsvFile csvData: String) {
+    public init?(contentsOfPricingMatrixCsvFile csvData: String) {
         var lines: [String] = []
         csvData.enumerateLines { (line, stop) in
             lines.append(line)
