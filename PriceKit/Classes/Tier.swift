@@ -1,5 +1,6 @@
 import Foundation
 
+// Available price tiers. These should match the tiers in the pricing matrix CSV.
 public enum Tier: String {
     case free   = "Free"
     case tier1  = "Tier 1"

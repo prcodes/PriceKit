@@ -5,6 +5,9 @@ class RegionCodes {
         return RegionCodes.regionCodesByCountryName[countryName]
     }
     
+    // The country names here should exactly match the names in the pricing matrix CSV file.
+    // The two-letter region codes here must be ISO 3166-1 country codes (compatible with the Locale class):
+    // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
     static fileprivate let regionCodesByCountryName: Dictionary<String, String> = [
         "United States" : "US",
         "Canada": "CA",
@@ -70,5 +73,6 @@ class RegionCodes {
         "Chile": "CL",
         "Colombia": "CO",
         "Peru": "PE",
+        "Brazil": "BR"
     ]
 }
