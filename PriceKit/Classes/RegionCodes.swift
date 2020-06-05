@@ -56,6 +56,7 @@ class RegionCodes {
         "El Salvador": "SV",
         "Switzerland": "CH",
         "Cote D'Ivoire": "CI",
+        "Ivoire": "CI",
         "South Korea": "KR",
         "Chile": "CL",
         "Cameroon": "CM",

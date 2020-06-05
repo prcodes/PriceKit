@@ -1,22 +1,27 @@
 PODS:
-  - Nimble (7.0.3)
-  - PriceKit (0.1.0)
-  - Quick (1.2.0)
+  - Nimble (8.0.9)
+  - PriceKit (1.1.1)
+  - Quick (2.2.0)
 
 DEPENDENCIES:
-  - Nimble (~> 7.0.2)
+  - Nimble
   - PriceKit (from `../`)
-  - Quick (~> 1.2.0)
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   PriceKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  PriceKit: 0342e04574bf7c02c7a5605527efde7c3eb5d14d
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  PriceKit: 161a745d06190414f5b02905810a1a7ddf0a1df7
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
-PODFILE CHECKSUM: a746ed5c3da29ecb786ec296c5913405e5a71b03
+PODFILE CHECKSUM: db9a3ccaae54a41d3942456969aede15ece34f3f
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.9.3
