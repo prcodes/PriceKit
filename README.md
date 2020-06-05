@@ -5,9 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/PriceKit.svg?style=flat)](http://cocoapods.org/pods/PriceKit)
 [![Platform](https://img.shields.io/cocoapods/p/PriceKit.svg?style=flat)](http://cocoapods.org/pods/PriceKit)
 
-## Example
+## How To Use
+
+Get price for a specific tier in specific locale:
+
+```
+let store = PriceStore()
+let priceLocale = Locale(identifier: "en_US")
+let price = store?.getPrice(of: .tier1, inPriceLocale: priceLocale)
+print(price?.price)
+print(price?.priceLocale)
+```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+Also, see [SKProduct+Locale.swift](./Example/Extensions/SKProduct+Locale.swift) extension. 
 
 ## Requirements
 

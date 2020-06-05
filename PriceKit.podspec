@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PriceKit'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Get App Store product prices by tier and locale.'
 
   s.description      = <<-DESC

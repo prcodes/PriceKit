@@ -1,7 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.3'
+
 use_frameworks!
+
 target 'PriceKit_Tests' do
+
   pod 'PriceKit', :path => '../'
   
-  pod 'Quick', '~> 1.2.0'
-  pod 'Nimble', '~> 7.0.2'
+  pod 'Quick'
+  pod 'Nimble'
+
 end

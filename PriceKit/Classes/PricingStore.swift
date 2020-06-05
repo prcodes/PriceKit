@@ -2,11 +2,11 @@ import Foundation
 
 public class PriceStore {
     // The name of the default pricing matrix csv file.
-    // Apple appends the download timestamp to the filename when you download the file from iTunes Connect,
+    // Apple appends the download timestamp to the filename when you download the file from App Store Connect,
     // which is useful information to have and should be preserved as "proof" of when the pricing table was generated.
     // If you are updating PriceKit's pricing matrix, delete the outdated CSV file, replace it with the newer CSV file,
     // and update the variable here so it points to the updated filename.
-    static fileprivate let defaultPricingMatrixCsvFilename = "pricing_matrix_20180107-002959"
+    static fileprivate let defaultPricingMatrixCsvFilename = "pricing_matrix_20200605-053929"
 
     // The actual pricing table, where the keys are region codes (see Apple's Locale documentation)
     // and the values are the region's tier to price lookup table.
